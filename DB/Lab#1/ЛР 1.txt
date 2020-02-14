@@ -1,0 +1,14 @@
+1
+select * from SCOTT.EMP t , DEMO.CUSTOMER d
+2
+select SAL*12 from SCOTT.EMP t 
+3
+select SAL*12 + SAL*0.15 from SCOTT.EMP t
+4
+select NVL(COMM,100) from SCOTT.EMP t
+5
+SELECT EMPNO "Табельний номер", ENAME "Прізвище", JOB "Спеціальність", HIREDATE "День народження", SAL "Заробітна плата"  FROM SCOTT.EMP t;
+6
+SELECT ENAME || ' is a ' || JOB "Прізвище та заробітна плата"  FROM SCOTT.EMP t;
+
+
